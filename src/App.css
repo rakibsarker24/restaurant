@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline:0;
+  /* color:white; */
+}
+body{
+  background-color: #0b0920;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+p,ul{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}

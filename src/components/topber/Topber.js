@@ -7,7 +7,7 @@ const Topber = () => {
   return (
     <>
       <div className='topber bg-body border-b border-subbrand'>
-            <div className="flex justify-between max-w-container m-auto px-2 py-3">
+            <div className="flex justify-between max-w-container m-auto py-3">
 
                     <div className="">
                         <CiLocationOn className='inline-block text-subbrand text-xl'/>

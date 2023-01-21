@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
   return (
     <>
-      <div className='topber border-b border-subbrand'>
-        <div className="flex justify-between max-w-container m-auto px-2 align-middle h-16 items-center">
+      <div className='topber'>
+        <div className="flex justify-between max-w-container m-auto align-middle h-16 items-center">
           {/* ------------logo part--------- */}
           <div className="text-para">
             <img className='w-[145px]' src="images/logo.png" alt="LOGO" />
@@ -15,9 +15,9 @@ const Navber = () => {
           <div className="">
             <div className="">
               <ul className='flex'>
-                <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2 '><Link to='#' >Home</Link></li>
-                <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2'><Link to='#' >About Us</Link></li>
-                <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2'><Link to='#' >Services</Link></li>
+                <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2 '><Link to='/' >Home</Link></li>
+                <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2'><Link to='/about' >About Us</Link></li>
+                <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2'><Link to='/service' >Services</Link></li>
                 <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2'><Link to='#' >Portfolio</Link></li>
                 <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2'><Link to='#' >Gallery</Link></li>
                 <li className='text-para text-normal text-lg hover:text-subbrand ease-in px-2'><Link to='#' >Blog</Link></li>
@@ -27,7 +27,7 @@ const Navber = () => {
           </div>
           {/* ------------Profile part--------- */}
           <div className="">
-            <CgProfile className='inline-block text-para text-xl hover:text-subbrand ease-in cursor-pointer' />
+             <Link to='/login'><CgProfile className='inline-block text-para text-xl hover:text-subbrand ease-in cursor-pointer' /></Link>
           </div>
         </div>
       </div>
